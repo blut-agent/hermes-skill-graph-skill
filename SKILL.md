@@ -198,7 +198,7 @@ Run weekly via `self-improver`:
 grep -L "always_load" ~/.hermes/skills/**/SKILL.md
 
 # Check context layer health
-ls ~/.hermes/context/
+ls $VAULT/memories/
 
 # Check for orphan skills (no related_skills links)
 grep -L "related_skills" ~/.hermes/skills/**/SKILL.md
